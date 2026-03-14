@@ -1,0 +1,15 @@
+enabled: true
+
+# 検知設定
+max-breaks-per-second: 8
+auto-ban-threshold: 15
+
+# BAN設定
+autoban:
+  enabled: true
+ban-message: "CivBreakの疑いがあるためBANされました。"
+ban-duration-minutes: 0   # 0 = 無期限
+
+# ログ設定
+log-enabled: true
+log-file: "break-log.txt"
