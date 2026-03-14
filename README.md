@@ -20,7 +20,7 @@ Open the block break log GUI.
 
 ## Permissions
 
-anticivbreak.admin
+acb.admin
 
 ## Supported Versions
 
@@ -47,4 +47,3 @@ You can configure:
 English  
 Japanese
 
-## Build
