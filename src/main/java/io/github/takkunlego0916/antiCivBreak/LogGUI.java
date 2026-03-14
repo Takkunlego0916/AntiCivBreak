@@ -55,7 +55,7 @@ public class LogGUI implements Listener {
     @EventHandler
     public void onClick(InventoryClickEvent e) {
         if (e.getView().getTitle().startsWith("ACB Logs")) {
-            e.setCancelled(true); // ★ これでアイテム取得不可
+            e.setCancelled(true);
         }
     }
 }
