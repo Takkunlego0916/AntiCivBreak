@@ -1,0 +1,13 @@
+main: io.github.takkunlego0916.antiCivBreak.AntiCivBreak
+name: AntiCivBreak
+version: 1.0
+api-version: 1.21
+
+commands:
+  acb:
+    description: AntiCivBreak コマンド
+    usage: /acb <reload|autoban on/off|log>
+
+permissions:
+  acb.admin:
+    default: op

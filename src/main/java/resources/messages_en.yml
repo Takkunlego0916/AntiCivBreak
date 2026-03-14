@@ -1,0 +1,12 @@
+prefix: "§6[AntiCivBreak]§r "
+
+command:
+  reload: "§aConfig reloaded."
+  autoban-on: "§aAutoBan enabled."
+  autoban-off: "§cAutoBan disabled."
+  disabled: "§cThe plugin is currently disabled."
+  usage: "§e/acb <reload|autoban on|autoban off|log>"
+
+warning-fast-break: "§cCivBreak detected (%count%/s)"
+autoban-kick: "§cYou have been automatically banned."
+autoban-log: "AutoBan executed."

@@ -1,0 +1,11 @@
+prefix: "§6[AntiCivBreak]§r "
+
+command:
+  reload: "§a設定を再読み込みしました。"
+  autoban-on: "§a自動BANを有効化しました。"
+  autoban-off: "§c自動BANを無効化しました。"
+  disabled: "§cプラグインは現在無効です。"
+  usage: "§e/acb <reload|autoban on|autoban off|log>"
+warning-fast-break: "§cCivBreakを検知しました (%count%/s)"
+autoban-kick: "§cあなたは自動BANされました"
+autoban-log: "自動BANを実行しました"
