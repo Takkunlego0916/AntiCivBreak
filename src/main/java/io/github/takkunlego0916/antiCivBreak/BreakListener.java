@@ -39,14 +39,12 @@ public class BreakListener implements Listener {
 
         lastCheck.put(uuid, now);
 
-        // 高速破壊検知ログ
         if (breakCount.get(uuid) > maxPerSec) {
             String msg = "高速破壊検知 (" + breakCount.get(uuid) + "/s)";
             plugin.addLog(uuid, msg);
             e.getPlayer().sendMessage("§c" + msg);
         }
 
-        // 自動BAN処理
         if (plugin.isAutoBanEnabled() && breakCount.get(uuid) >= autoBanThreshold) {
 
             String reason = plugin.getConfig().getString(
@@ -58,7 +56,6 @@ public class BreakListener implements Listener {
             int minutes = plugin.getConfig().getInt("ban-duration-minutes", 0);
 
             if (minutes <= 0) {
-                // ★★★ ここを明示的に Date 型にする（曖昧エラー対策） ★★★
                 banList.addBan(
                         e.getPlayer().getName(),
                         reason,
